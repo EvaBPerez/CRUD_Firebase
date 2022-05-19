@@ -1,0 +1,8 @@
+<br>
+<h5>Books List</h5>
+
+  <ul class="items">
+    <li (click)="onSelect(book)" *ngFor="let book of books">
+      <span class="badge">{{book.id}}</span>{{book.name}}
+    </li>
+  </ul>

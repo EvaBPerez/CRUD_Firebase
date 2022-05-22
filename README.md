@@ -9,4 +9,4 @@ Si clicamos en el nombre de un libro nos llevará al apartado de la información
 en la lista de leídos, además de poder cambiar el nombre y luego actualizar la información como darle a eliminar el libro. 
 
 Para la realización de esta aplicación me he ayudado de los documentos proporcionados por el profesorado de la asignatura, vídeos y documentación
-en internet. 
+en internet. También se hace uso del Lazy Load para que no se carguen todas las páginas desde el inicio.

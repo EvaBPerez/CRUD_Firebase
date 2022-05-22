@@ -5,8 +5,8 @@ En el segundo apartado podremos ver los libros que tenemos con un to do list, si
 leido y también aparecerá en el apartado de "my books", si le quitamos el check se eliminará de la lista de "my books" (es como la lista
 de libro leído).
 
-Si clicamos en el nombre de un libro nos llevará al apartado de la información, aquí podremos cambiar el nombre y luego actualizar la información
-como darle a eliminar el libro. 
+Si clicamos en el nombre de un libro nos llevará al apartado de la información, aquí podremos ver el id del libre, el nombre y si lo tenemos
+en la lista de leídos, además de poder cambiar el nombre y luego actualizar la información como darle a eliminar el libro. 
 
 Para la realización de esta aplicación me he ayudado de los documentos proporcionados por el profesorado de la asignatura, vídeos y documentación
 en internet. 

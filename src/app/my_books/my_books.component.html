@@ -1,0 +1,9 @@
+<br>
+<h5>My Books List</h5>
+
+  <ul class="items">
+    <li *ngFor="let book of books">      
+        <input type="checkbox" #book_check (change)='checkOnClick(book_check.checked, book)' style="margin-right: 1rem;" checked>
+        <span (click)="onSelect(book)"><span class="badge">{{book.id}}</span>{{book.name}}</span>
+      </li>
+  </ul>

@@ -1,0 +1,13 @@
+<br>
+<h5>Add book</h5>
+<div>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <label for="">Title:</label><br>
+        <input type="text" [ngModel]="book.name" name="name">
+        <br>
+        <br>
+        <br>
+        <button class="button" type="submit">Add book</button>
+    
+    </form>
+</div>

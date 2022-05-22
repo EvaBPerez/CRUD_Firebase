@@ -2,7 +2,14 @@
 <h5>Books List</h5>
 
   <ul class="items">
-    <li (click)="onSelect(book)" *ngFor="let book of books">
-      <span class="badge">{{book.id}}</span>{{book.name}}
+    <li *ngFor="let book of my_books">      
+      <input type="checkbox" #book_check (change)='checkOnClick(book_check.checked, book)' style="margin-right: 1rem;" checked>
+      <span (click)="onSelect(book)"><span class="badge">{{book.id}}</span>{{book.name}}</span>
+    </li>
+
+
+    <li *ngFor="let book of no_books">     
+      <input type="checkbox" #book_check (change)='checkOnClick(book_check.checked, book)' style="margin-right: 1rem;">      
+      <span (click)="onSelect(book)"><span class="badge">{{book.id}}</span>{{book.name}}</span>
     </li>
   </ul>

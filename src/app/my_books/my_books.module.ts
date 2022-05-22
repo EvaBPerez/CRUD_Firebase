@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AuthorsRoutingModule } from './authors-routing.module';
-import { AuthorsComponent } from './authors.component';
+import { My_booksRoutingModule } from './my_books-routing.module';
+import { My_booksComponent } from './my_books.component';
 
 
 @NgModule({
   declarations: [
-    AuthorsComponent
+  My_booksComponent
   ],
   imports: [
     CommonModule,
-    AuthorsRoutingModule
+    My_booksRoutingModule
   ]
 })
 export class AuthorsModule { }

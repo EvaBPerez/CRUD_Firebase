@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-pagenotfound',
   template: `
     <p>
-      Page Not Found
+      Selecciona alguna pestaña
     </p>
   `,
   styles: [

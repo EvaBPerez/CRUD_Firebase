@@ -1,5 +1,17 @@
 <br>
-<p>Book Details</p>
-<br>
+<h5>Book Details</h5>
 <!-- <h4>Book with id: {{bookId}}, selected</h4> -->
-<h4>Book with id: {{bookId}}, selected</h4>
+<div style="margin-left: 2rem;">
+    <form #f="ngForm">
+        <p><span style="font-weight: bold;">Book id:</span> {{ book.id }}</p>
+        <p><span style="font-weight: bold;">Book name: </span> <input type="text" [ngModel]="book.name" name="name" value=" {{ book.name }}"></p>
+        <p><span style="font-weight: bold;">My book:</span> {{ book.check }}</p>
+
+        <br><br><br>
+
+        <button class="button" (click)="onSubmitEdit(f)">Update book</button> 
+        <br><br>
+        <button class="button" (click)="deleteBook()">Delete book</button> 
+    </form>
+    
+</div>

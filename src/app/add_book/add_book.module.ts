@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { IndexcardRoutingModule } from './indexcard-routing.module';
-import { IndexcardComponent } from './indexcard.component';
+import { Add_bookRoutingModule } from './add_book-routing.module';
+import { Add_bookComponent } from './add_book.component';
 import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    IndexcardComponent
+    Add_bookComponent
   ],
   imports: [
     CommonModule,
-    IndexcardRoutingModule,
+    Add_bookRoutingModule,
     FormsModule
   ]
 })
-export class IndexcardModule { }
+export class Add_bookModule { }
